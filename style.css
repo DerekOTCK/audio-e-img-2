@@ -1,0 +1,16 @@
+:root{
+    --cinza: #aaa;
+    --vermelho-escuro: red;
+    --branca: white;
+    --luz: rgb(93, 89,  89);
+
+}
+
+body{
+    align-items: center;
+    background-color: var(--vermelho-escuro);
+    display: flex;
+    justify-content: center;
+    flex-direction> column;
+    min-height: 100vh;
+}
