@@ -1,25 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teclado numérico-Openings de animes</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Efeitos Sonoros - Animais</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Efeitos som</h1>
-    <h2>Openings de animes</h2>
-    <section class="teclado">
-        <button class="tecla tecla-som-1"><img scr="./img/attk.jpeg"></button>
-        <button class="tecla tecla-som-2"><img scr="./img/death.jpeg"></button>
-        <button class="tecla tecla-som-3"><img scr="./img/diabo.jpg"></button>
-        <button class="tecla tecla-som-4"><img scr="./img/dragonball.jpeg"></button>
-        <button class="tecla tecla-som-5"><img scr="./img/jjk.jpeg"></button>
-        <button class="tecla tecla-som-6"><img scr="./img/mbh.jpeg"></button>
-        <button class="tecla tecla-som-7"><img scr="./img/one punch.jpeg"></button>
-        <button class="tecla tecla-som-8"><img scr="./img/pokemon.jpeg"></button>
-        <button class="tecla tecla-som-9"><img scr="./img/demonslayer.jpeg"></button>
-    </section>
+  <h1>Efeitos Sonoros</h1>
+  <h2>Animais</h2>
+
+  <section class="teclado">
+
+    <button class="tecla tecla_cachorro" type="button" aria-label="Cachorro">
+      <figure>
+        <img src="imagens/dog.jpg" alt="Cachorro">
+        <figcaption>Cachorro</figcaption>
+      </figure>
+    </button>
+    <audio id="som_tecla_cachorro" src="sons/cachorro.mp3"></audio>
+
+    <button class="tecla tecla_gato" type="button" aria-label="Gato">
+      <figure>
+        <img src="imagens/cat.jpg" alt="Gato">
+        <figcaption>Gato</figcaption>
+      </figure>
+    </button>
+    <audio id="som_tecla_gato" src="sons/gatomp3.mp3"></audio>
+
+    <button class="tecla tecla_vaca" type="button" aria-label="Vaca">
+      <figure>
+        <img src="imagens/cows.jpg" alt="Vaca">
+        <figcaption>Vaca</figcaption>
+      </figure>
+    </button>
+    <audio id="som_tecla_vaca" src="sons/vaca.mp3"></audio>
+
+    <button class="tecla tecla_pato" type="button" aria-label="Pato">
+      <figure>
+        <img src="imagens/duck.jpg" alt="Pato">
+        <figcaption>Pato</figcaption>
+      </figure>
+    </button>
+    <audio id="som_tecla_pato" src="sons/pato.mp3"></audio>
+
+    <button class="tecla tecla_porco" type="button" aria-label="Porco">
+      <figure>
+        <img src="imagens/pig.jpg" alt="Porco">
+        <figcaption>Porco</figcaption>
+      </figure>
+    </button>
+    <audio id="som_tecla_porco" src="sons/porco.mp3"></audio>
+
+    <button class="tecla tecla_ovelha" type="button" aria-label="Ovelha">
+      <figure>
+        <img src="imagens/sheep.jpg" alt="Ovelha">
+        <figcaption>Ovelha</figcaption>
+      </figure>
+    </button>
+    <audio id="som_tecla_ovelha" src="sons/ovelha.mp3"></audio>
+
+    <button class="tecla tecla_leao" type="button" aria-label="Leão">
+      <figure>
+        <img src="imagens/loewen.jpg" alt="Leão">
+        <figcaption>Leão</figcaption>
+      </figure>
+    </button>
+    <audio id="som_tecla_leao" src="sons/leao.mp3"></audio>
+
+    <button class="tecla tecla_tigre" type="button" aria-label="Tigre">
+      <figure>
+        <img src="imagens/tiger.jpg" alt="Tigre">
+        <figcaption>Tigre</figcaption>
+      </figure>
+    </button>
+    <audio id="som_tecla_tigre" src="sons/tigremp3.mp3"></audio>
+
+    <button class="tecla tecla_chimpanze" type="button" aria-label="Chimpanzé">
+      <figure>
+        <img src="imagens/Schimpanse-1024x768.jpg" alt="Chimpanzé">
+        <figcaption>Chimpanzé</figcaption>
+      </figure>
+    </button>
+    <audio id="som_tecla_chimpanze" src="sons/chimpanze.mp3"></audio>
+
+  </section>
+
+  <script src="main.js"></script>
 </body>
 </html>
